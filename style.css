@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.container {
+  width: 100% !important;
+  margin: auto;
+}
+
+.headerBg {
+  background-color: #00a884 !important;
+  padding-top: 1rem;
+  padding-bottom: 8.5rem;
+  position: relative;
+}
+
+.brandBody {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.brandName h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  margin-left: 15px;
+}
+
+.headerWraper {
+  margin-top: 1rem;
+}
+
+.qrcodeLoginDirectionWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  align-items: center;
+}
+
+.qrcodeLoginBody {
+  padding-top: 4rem;
+  color: #646464;
+  margin-bottom: 5rem;
+}
+
+.qrcodeLoginDirection h1 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.qrcodeLoginDirection ol {
+  margin-left: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.qrcodeLoginDirection ol li {
+  margin-bottom: 1.9rem;
+}
+
+.qrcodeLoginDirection ol li svg {
+  position: relative;
+  top: 0.3rem;
+}
+.tutorialWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  background-color: #f9f9fa;
+  padding: 5rem 0rem;
+}
+
+.tutorialTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tutorialTitle p {
+  color: teal;
+  font-size: 0.9rem;
+}
+
+.tutorialTitle h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0.6rem;
+}
+.wraper {
+  background: white;
+  position: relative;
+  top: -100px;
+  box-shadow: 0px 3px 20px 7px #aeaeae85;
+  border-radius: 3px;
+  width: 1000px;
+  margin: auto;
+}
+
+@media (max-width:768px) {
+  .qrcodeLoginDirectionWrap {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:992px) {
+  .wraper {
+    width: 100%;
+  }
+  .brandBody {
+    width: 100%;
+    padding: 1rem 4rem;
+  }
+}
+
+@media (max-width:425px) {
+  .qrcodeLoginDirectionWrap {
+    padding: 1rem 1rem;
+  }
+  .brandBody {
+    padding: 1rem 1rem;
+  }
+}
